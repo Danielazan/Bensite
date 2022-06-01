@@ -1,6 +1,6 @@
 import React from 'react'
 import './new.css'
-import { Button, Navbar, Container,Card, ListGroup,Row, Col } from 'react-bootstrap';
+import { Button,  Container,Card, ListGroup,Row, Col } from 'react-bootstrap';
 function New() {
   return (
     <Container fluid>

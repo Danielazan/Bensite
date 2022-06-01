@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    animation:
+    pics
+    20s
+    ease-in-out
+    infinite
+
+    ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+   position: relative;
+   
+}
+@keyframes pics{
+    0% {
+        background-image: url('./landimg/cross4.jpg');
+    }
+    20%{
+        background-image: url('./landimg/cross3.jpg');
+    }
+    40%{
+        background-image: url('./landimg/cross1.jpg');
+    }
+    60%{
+        background-image: url('./landimg/cross5.jpg');
+    }
+    80%{
+        background-image: url('./landimg/cross8.jpg');
+    }
+    100%{
+        background-image: url('./landimg/cross2.jpg');
+    }
+}
+#nat{
+    background:black;
+}
+.nate{
+    color:blue;
+    
+    font-weight: 2000;
+}
+#nate{
+    color:yellow;
+
+    font-weight: 2000;
+
+}
+#offcanvasNavbarDropdown-expand.tile{
+    color:yellow;
+    
+    font-weight: 2000;
+}
+
+.logot{
+   
+    align-content: center;
+    
+    text-align: center;
+}
+.logot h1{
+    text-transform: capitalize;
+    margin-bottom:5px ;
+    color: yellow;
+    
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    text-align: center;
+}
+.logot h3{
+    text-transform: capitalize;
+    margin-left:35px ;
+    color: red;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}

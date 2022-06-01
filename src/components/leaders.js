@@ -1,6 +1,6 @@
 import React from 'react'
 import './leaders.css'
-import { Carousel, Button, Container,Card, ListGroup,Row, Col } from 'react-bootstrap';
+import {  Button, Container,Card, Row, Col } from 'react-bootstrap';
 
 const photos =[
     {

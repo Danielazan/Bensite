@@ -40,7 +40,7 @@ function logo() {
                 menuVariant='dark'
                 
                 id={`offcanvasNavbarDropdown-expand-${expand} `}
-                id='nate'
+               
               >
                 <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action4">
